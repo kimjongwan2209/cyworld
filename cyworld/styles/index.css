@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.background{
+    width: 1024px;
+    height: 600px;
+    background-image: url("../images/background.png");
+    padding: 20px 0px 0px 20px; 
+     /*패딩은 시계방향순으로 적용됨  */
+    
+}
+.outerbox{
+    width: 808px;
+    height: 544px;
+    background-image: url("../images/outerbox.png");
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    padding: 32px 0px 0px 32px;
+}
+
+.wrapper__left{
+    width: 208px;
+    height: 472px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper__left__heeader{
+    width: 100%;
+    /* css에서 %란?? 상대단위: 부모박스의 사이즈의 비율을 가지고와서 
+    속성이 적용된 박스에 그 비율만큼 적용을 시킨다는 의미 
+   wrapper__left__heeader의 부모박스는 wrapper__left 이기에 wrapper__left에서 적용한 픽셀의 비율의 100%가 적용된다. */
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.today{
+    font-size: 9px;
+    /* css는 상속이 가능하다. 부모박스의 today div 안에 있는 
+    span태그들이 있기에 div쪽에 적용을 시키면 span에도 적용이 된다 */
+
+}
+
+.wrapper__left__body{
+    width: 100%;
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px;
+
+}
+
+.left__body__header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left__body__header__gray{
+    width: 148px;
+    height: 133px;
+    background-color: gray;
+}
+
+.left__body__header__line{
+    border-top: 1px dotted black;
+    margin: 12px 0px;
+}
+
+.left__body__profile{
+
+}
+
+.left__body__footer{
+
+}
+
+
+
+.wrapper__right{
+    width: 524px;
+    height: 472px;
+    background-color: chartreuse;
+    
+}

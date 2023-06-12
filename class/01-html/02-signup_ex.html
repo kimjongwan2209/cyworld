@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>Upgrade_sign_up_page</title>
+    
+    <style>
+
+        #signup{
+            width: 1920px;
+            height:1080px;
+            background-color: #FFFFFF;
+            /* border:1px solid red; */
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .main{
+            box-sizing: border-box;
+            width : 670px;
+            height : 960px;
+            border : 1px solid #AACDFF;
+            padding : 60px;
+            box-shadow: 7px 7px 39px rgba(0,104,255,0.25);
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .main2{
+            width: 470px;
+            height: 818px;
+            /* border: 1px solid green; */
+            display : flex;
+            flex-direction:  column;
+            align-items: center;
+        }
+
+        #introduce{
+            width: 466px;
+            height: 94px;
+            font-family: 'Noto Sans CJK KR';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 47px;
+            color : #0068FF
+        }
+
+        #group1{
+            width: 466px;
+            height: 80px;
+            /* border: 1px solid red; */
+        }
+
+        #email{
+            width: 158px;
+            height: 23.65px;
+            font-family: 'Noto Sans CJK KR';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color :#797979;
+        }
+
+        #vector1{
+            width: 466px;
+            height: 0px;
+            border: 1px solid #0068FF;
+        }
+        
+        #sex{
+            width: 140px;
+            height: 23.94px;
+            display: flex;
+            justify-content: space-between;
+            
+            font-family: 'Noto Sans CJK KR';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color : #000000
+            /* border:1px solid #0068FF */
+        }
+
+        #checkbox{
+            width: 454px;
+            height: 21.06px;
+            
+            font-family: 'Noto Sans CJK KR';
+            font-style: normal;
+            font-size: 13px;
+            line-height: 21px;
+            color : #000000
+        }
+
+        #line{
+            width: 470px;
+            height: 1px;
+            background-color: #E6E6E6;
+        }
+
+         button{
+            width: 470px;
+            height: 75px;
+            background-color: #FFFFFF;
+            border: 1px solid #0068FF;
+            border-radius: 10px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+         }
+
+        #button_text{
+            width: 70px;
+            height: 27px;
+
+            font-family: 'Noto Sans CJK KR';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 27px;
+            text-align: center;
+            color : #0068FF
+        }
+
+    </style>
+</head>
+<body>
+    <div id = "signup">
+        <div class = "main">
+            <div class = "main2">
+                <div id = "introduce">
+                    회원 가입을 위해<br>정보를 입력해주세요
+                </div>
+                <br>
+                <div id = "group1">
+                    <div id = "email">
+                        *이메일
+                    </div>
+                    <input type ="text" style="border: none; width:200px;height: 50px;font-size: 30px;">
+                    <div id = "vector1"></div>
+                </div>
+                <br>
+                <div id = "group1">
+                    <div id = "email">
+                        *이름
+                    </div>
+                    <input type ="text" style="border: none; width:200px;height: 50px;font-size: 30px;">
+                    <div id = "vector1"></div>
+                </div>
+                <br>
+                <div id = "group1">
+                    <div id = "email">
+                        *비밀번호
+                    </div>
+                    <input type ="password" style="border: none; width:200px;height: 50px;font-size: 30px;">
+                    <div id = "vector1"></div>
+                </div>
+                <br>
+                <div id = "group1">
+                    <div id = "email">
+                        *비밀번호확인
+                    </div>
+                    <input type ="password" style="border: none; width:200px;height: 50px;font-size: 30px;">
+                    <div id = "vector1"></div>
+                </div>
+                
+                <br><br>
+                
+                <div id = "sex">
+                    <div>
+                        <input type = "radio" name = "gender">여성
+                    </div>
+                    <div>
+                        <input type = "radio" name = "gender">남성
+                    </div>
+                </div>
+                <br><br>
+                <div id ="checkbox">
+                    <input type = "checkbox"> 이용약관 개인정보 수집 및 이용, 마케팅 활용 선택에 모두 동의합니다.
+                </div>
+                <br><br>
+                <div id = "line"></div>
+                <br><br>
+                <button>
+                    <div id = "button_text">
+                        가입하기
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
