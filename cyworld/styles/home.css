@@ -30,7 +30,6 @@ html, body{
 .contents__title{
     display: flex;
     flex-direction: row;
-    border: 1px solid red;
     align-items: center;
 }
 
@@ -58,5 +57,15 @@ html, body{
 .wrapper__body{
     width: 100%;
     height:270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contents__body2{
+    Width:100%;
+    Height:240px;
+    background-color: #c4c4c4;
+    margin-top: 15PX;
 }
 
