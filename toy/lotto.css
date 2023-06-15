@@ -32,6 +32,11 @@
     align-items: center;
 }
 
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: oblique;
+}
 
 .lotto__form{
     border: 32px solid goldenrod;
