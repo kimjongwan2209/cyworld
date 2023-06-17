@@ -17,12 +17,6 @@ const randomNum = () => {
   }
   array.sort((a, b) => a - b);
 
-  //   const randomColor2 = "#" + Math.round(Math.random() * 0xffffff).toString(16);
-  //   const randomColor3 = "#" + Math.round(Math.random() * 0xffffff).toString(16);
-  //   const randomColor4 = "#" + Math.round(Math.random() * 0xffffff).toString(16);
-  //   const randomColor5 = "#" + Math.round(Math.random() * 0xffffff).toString(16);
-  //   const randomColor6 = "#" + Math.round(Math.random() * 0xffffff).toString(16);
-
   document.getElementById("num1").innerHTML = array[0];
   document.getElementById("num2").innerHTML = array[1];
   document.getElementById("num3").innerHTML = array[2];
