@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px; 
+}
+
+.container{
+    background: #eeeeee;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.wrapper{
+    width: 620px;
+    padding: 40px 30px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.wrapper__head{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed gray;
+}
+
+.wrapper_head_title{
+    font-size: 32px;
+    background-color: orange;
+    color: azure;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.wrapper_head_subtitle{
+    font-size: 18px;
+    padding: 10px 0px;
+}
+
+#point{
+    color: orange;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: underline;
+    display: block;
+    margin-top: 15px;
+}
+
+.wrapper__body{
+    border: 1px solid #dddddd;
+    padding: 20px 30px;
+}
+
+.Diary_title{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+}
+
+.kimchi{
+    color: red;
+    font-weight: 600;
+}
+
+.egg{
+    color: orange;
+    font-weight: 600;
+}
+
+.highlight{
+    font-size: 20px;
+    color: blue;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.Diary_date{
+    color: #919191;
+    font-size: 14px;
+    text-align: right;
+}
