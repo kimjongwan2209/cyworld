@@ -96,7 +96,6 @@
 .header__inner{
     width: 900px;
     height: 100%;
-    background-color: red;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -126,6 +125,10 @@
     padding: 10px 20px;
     text-decoration: none;
     color: black;
+}
+
+.menu__ul li a:hover{
+    color: orange;
 }
 
 .user{
