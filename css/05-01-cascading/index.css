@@ -1,0 +1,15 @@
+*{
+    background: red;
+}
+
+div{
+    background: burlywood;
+}
+
+.text-class{
+    background: blue;
+}
+
+#text-id{
+    background: aquamarine;
+}
